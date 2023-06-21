@@ -1,3 +1,9 @@
+name: Auto Request Review
+
+on:
+  pull_request:
+    types: [opened, ready_for_review, reopened]
+
 aaaaaaaaaaaaaa
 bbbbbbbbbbbbbbbbbbbbb
 cccccccccccccccccc
